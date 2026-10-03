@@ -1,0 +1,32 @@
+/* Base styles from the Seaside Candle Works design */
+*{box-sizing:border-box}
+body{margin:0;background:#F7F3EA;color:#152828;font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:#2B5352}
+a:hover{color:#152828}
+img{display:block;max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+button:disabled{cursor:not-allowed}
+:focus-visible{outline:2px solid #2B5352 !important;outline-offset:3px !important}
+::selection{background:#A9D5CF;color:#152828}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+/* Interaction states (generated from style-hover / style-focus) */
+.fc-48c88d:focus{left:16px !important}
+.hv-e85304:hover{border-bottom-color:#152828 !important}
+.hv-49aec0:hover{color:#FFFFFF !important;text-decoration:underline !important}
+.hv-fa67e7:hover{background:#1E3E3D !important;color:#FCFBF7 !important}
+.hv-d66214:hover{background:#152828 !important;color:#F7F3EA !important}
+.hv-34f3a1:hover{background:#EAE2D2 !important;color:#152828 !important}
+.hv-36ea72:hover{background-size:100% 1px !important}
+.hv-664ef3:hover{transform:scale(1.045) translateY(-1%) !important}
+.fc-f264d6:focus{border-color:#2B5352 !important;box-shadow:0 0 0 3px rgba(79,133,132,.2) !important}
+.hv-112f10:hover{background:#1E3E3D !important}
+.fc-2630ca:focus{border-color:#2B5352 !important}
+.hv-f74989:hover{transform:scale(1.04) !important}
+.hv-68f513:hover{background:#A9D5CF !important;border-color:#A9D5CF !important;color:#152828 !important}
+.hv-00abf6:hover{border-color:#F7F3EA !important;color:#FFFFFF !important}
+.hv-bd3964:hover{opacity:1 !important;transform:scale(1.55) !important}
+.hv-0f51f4:hover{background:#152828 !important;color:#F7F3EA !important;border-color:#152828 !important}
+/* admin buttons */
+.hv-bb-primary:hover{background:#0B1717 !important}
+.hv-bb-secondary:hover{background:#EAE2D2 !important}
